@@ -19,3 +19,7 @@ C:\Users\Martin\Documents\Visual Studio 2013\Projects\WindowsFormsApplication2\W
 C:\Users\Robin\Source\Repos\affAIRs\affAIRs\bin\Debug\affAIRs.exe.config
 C:\Users\Robin\Source\Repos\affAIRs\affAIRs\obj\Debug\affAIRs.exe
 C:\Users\Robin\Source\Repos\affAIRs\affAIRs\obj\Debug\affAIRs.pdb
+C:\Users\Robin\Source\Repos\affAIRs\affAIRs\obj\Debug\affAIRs.csprojResolveAssemblyReference.cache
+C:\Users\Robin\Source\Repos\affAIRs\affAIRs\obj\Debug\affAIRs.MainFrame.resources
+C:\Users\Robin\Source\Repos\affAIRs\affAIRs\obj\Debug\affAIRs.Properties.Resources.resources
+C:\Users\Robin\Source\Repos\affAIRs\affAIRs\obj\Debug\affAIRs.csproj.GenerateResource.Cache

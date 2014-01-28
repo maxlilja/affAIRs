@@ -33,6 +33,7 @@
             this.contextMenuStrip2 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.adminToolsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.employeeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -43,6 +44,7 @@
             this.addToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.deleteToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.changeInfoToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.statisticsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.affAIRsDataSet1 = new affAIRs.affAIRsDataSet1();
             this.productBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.productTableAdapter1 = new affAIRs.affAIRsDataSet1TableAdapters.ProductTableAdapter();
@@ -52,8 +54,6 @@
             this.affAIRsDataSet2 = new affAIRs.affAIRsDataSet2();
             this.salesLineBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.salesLineTableAdapter = new affAIRs.affAIRsDataSet2TableAdapters.SalesLineTableAdapter();
-            this.statisticsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
             this.button22 = new System.Windows.Forms.Button();
@@ -109,7 +109,8 @@
             this.adminToolsToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1496, 28);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
+            this.menuStrip1.Size = new System.Drawing.Size(1063, 24);
             this.menuStrip1.TabIndex = 28;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -119,13 +120,19 @@
             this.toolStripMenuItem1,
             this.exitToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(44, 24);
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
             this.fileToolStripMenuItem.Text = "File";
+            // 
+            // toolStripMenuItem1
+            // 
+            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(127, 22);
+            this.toolStripMenuItem1.Text = "Sale panel";
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(102, 24);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(127, 22);
             this.exitToolStripMenuItem.Text = "Exit";
             // 
             // adminToolsToolStripMenuItem
@@ -135,7 +142,7 @@
             this.productToolStripMenuItem,
             this.statisticsToolStripMenuItem});
             this.adminToolsToolStripMenuItem.Name = "adminToolsToolStripMenuItem";
-            this.adminToolsToolStripMenuItem.Size = new System.Drawing.Size(102, 24);
+            this.adminToolsToolStripMenuItem.Size = new System.Drawing.Size(84, 20);
             this.adminToolsToolStripMenuItem.Text = "Admin tools";
             this.adminToolsToolStripMenuItem.Click += new System.EventHandler(this.adminToolsToolStripMenuItem_Click);
             // 
@@ -146,25 +153,25 @@
             this.deleteToolStripMenuItem,
             this.changeInfoToolStripMenuItem});
             this.employeeToolStripMenuItem.Name = "employeeToolStripMenuItem";
-            this.employeeToolStripMenuItem.Size = new System.Drawing.Size(144, 24);
+            this.employeeToolStripMenuItem.Size = new System.Drawing.Size(126, 22);
             this.employeeToolStripMenuItem.Text = "Employee";
             // 
             // addToolStripMenuItem
             // 
             this.addToolStripMenuItem.Name = "addToolStripMenuItem";
-            this.addToolStripMenuItem.Size = new System.Drawing.Size(168, 24);
+            this.addToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
             this.addToolStripMenuItem.Text = "Add..";
             // 
             // deleteToolStripMenuItem
             // 
             this.deleteToolStripMenuItem.Name = "deleteToolStripMenuItem";
-            this.deleteToolStripMenuItem.Size = new System.Drawing.Size(168, 24);
+            this.deleteToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
             this.deleteToolStripMenuItem.Text = "Delete..";
             // 
             // changeInfoToolStripMenuItem
             // 
             this.changeInfoToolStripMenuItem.Name = "changeInfoToolStripMenuItem";
-            this.changeInfoToolStripMenuItem.Size = new System.Drawing.Size(168, 24);
+            this.changeInfoToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
             this.changeInfoToolStripMenuItem.Text = "Change  info..";
             // 
             // productToolStripMenuItem
@@ -174,26 +181,32 @@
             this.deleteToolStripMenuItem1,
             this.changeInfoToolStripMenuItem1});
             this.productToolStripMenuItem.Name = "productToolStripMenuItem";
-            this.productToolStripMenuItem.Size = new System.Drawing.Size(144, 24);
+            this.productToolStripMenuItem.Size = new System.Drawing.Size(126, 22);
             this.productToolStripMenuItem.Text = "Product";
             // 
             // addToolStripMenuItem1
             // 
             this.addToolStripMenuItem1.Name = "addToolStripMenuItem1";
-            this.addToolStripMenuItem1.Size = new System.Drawing.Size(164, 24);
+            this.addToolStripMenuItem1.Size = new System.Drawing.Size(145, 22);
             this.addToolStripMenuItem1.Text = "Add..";
             // 
             // deleteToolStripMenuItem1
             // 
             this.deleteToolStripMenuItem1.Name = "deleteToolStripMenuItem1";
-            this.deleteToolStripMenuItem1.Size = new System.Drawing.Size(164, 24);
+            this.deleteToolStripMenuItem1.Size = new System.Drawing.Size(145, 22);
             this.deleteToolStripMenuItem1.Text = "Delete..";
             // 
             // changeInfoToolStripMenuItem1
             // 
             this.changeInfoToolStripMenuItem1.Name = "changeInfoToolStripMenuItem1";
-            this.changeInfoToolStripMenuItem1.Size = new System.Drawing.Size(164, 24);
+            this.changeInfoToolStripMenuItem1.Size = new System.Drawing.Size(145, 22);
             this.changeInfoToolStripMenuItem1.Text = "Change info..";
+            // 
+            // statisticsToolStripMenuItem
+            // 
+            this.statisticsToolStripMenuItem.Name = "statisticsToolStripMenuItem";
+            this.statisticsToolStripMenuItem.Size = new System.Drawing.Size(126, 22);
+            this.statisticsToolStripMenuItem.Text = "Statistics";
             // 
             // affAIRsDataSet1
             // 
@@ -237,155 +250,159 @@
             // 
             this.salesLineTableAdapter.ClearBeforeFill = true;
             // 
-            // statisticsToolStripMenuItem
-            // 
-            this.statisticsToolStripMenuItem.Name = "statisticsToolStripMenuItem";
-            this.statisticsToolStripMenuItem.Size = new System.Drawing.Size(175, 24);
-            this.statisticsToolStripMenuItem.Text = "Statistics";
-            // 
-            // toolStripMenuItem1
-            // 
-            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(175, 24);
-            this.toolStripMenuItem1.Text = "Sale panel";
-            // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(526, 281);
+            this.textBox3.Location = new System.Drawing.Point(401, 233);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(68, 22);
+            this.textBox3.Size = new System.Drawing.Size(52, 20);
             this.textBox3.TabIndex = 82;
             // 
             // dataGridView2
             // 
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Location = new System.Drawing.Point(611, 138);
+            this.dataGridView2.Location = new System.Drawing.Point(465, 117);
+            this.dataGridView2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.RowTemplate.Height = 24;
-            this.dataGridView2.Size = new System.Drawing.Size(444, 390);
+            this.dataGridView2.Size = new System.Drawing.Size(333, 317);
             this.dataGridView2.TabIndex = 81;
             // 
             // button22
             // 
-            this.button22.Location = new System.Drawing.Point(526, 309);
+            this.button22.Location = new System.Drawing.Point(401, 256);
+            this.button22.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button22.Name = "button22";
-            this.button22.Size = new System.Drawing.Size(68, 51);
+            this.button22.Size = new System.Drawing.Size(51, 41);
             this.button22.TabIndex = 80;
             this.button22.Text = "<";
             this.button22.UseVisualStyleBackColor = true;
             // 
             // button21
             // 
-            this.button21.Location = new System.Drawing.Point(526, 224);
+            this.button21.Location = new System.Drawing.Point(401, 187);
+            this.button21.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button21.Name = "button21";
-            this.button21.Size = new System.Drawing.Size(68, 51);
+            this.button21.Size = new System.Drawing.Size(51, 41);
             this.button21.TabIndex = 79;
             this.button21.Text = ">";
             this.button21.UseVisualStyleBackColor = true;
             // 
             // button20
             // 
-            this.button20.Location = new System.Drawing.Point(417, 80);
+            this.button20.Location = new System.Drawing.Point(320, 70);
+            this.button20.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button20.Name = "button20";
-            this.button20.Size = new System.Drawing.Size(92, 48);
+            this.button20.Size = new System.Drawing.Size(69, 39);
             this.button20.TabIndex = 78;
             this.button20.Text = "SEARCH";
             this.button20.UseVisualStyleBackColor = true;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(68, 80);
+            this.textBox2.Location = new System.Drawing.Point(58, 70);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(342, 48);
+            this.textBox2.Size = new System.Drawing.Size(258, 40);
             this.textBox2.TabIndex = 77;
             // 
             // button19
             // 
-            this.button19.Location = new System.Drawing.Point(1354, 554);
+            this.button19.Location = new System.Drawing.Point(1002, 479);
+            this.button19.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button19.Name = "button19";
-            this.button19.Size = new System.Drawing.Size(75, 60);
+            this.button19.Size = new System.Drawing.Size(56, 49);
             this.button19.TabIndex = 76;
             this.button19.Text = ",";
             this.button19.UseVisualStyleBackColor = true;
             // 
             // button18
             // 
-            this.button18.Location = new System.Drawing.Point(1320, 208);
+            this.button18.Location = new System.Drawing.Point(976, 221);
+            this.button18.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(109, 58);
+            this.button18.Size = new System.Drawing.Size(82, 47);
             this.button18.TabIndex = 75;
             this.button18.Text = "GBP";
             this.button18.UseVisualStyleBackColor = true;
             // 
             // button17
             // 
-            this.button17.Location = new System.Drawing.Point(1191, 208);
+            this.button17.Location = new System.Drawing.Point(879, 221);
+            this.button17.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(109, 58);
+            this.button17.Size = new System.Drawing.Size(82, 47);
             this.button17.TabIndex = 74;
             this.button17.Text = "USD";
             this.button17.UseVisualStyleBackColor = true;
             // 
             // button16
             // 
-            this.button16.Location = new System.Drawing.Point(1320, 144);
+            this.button16.Location = new System.Drawing.Point(976, 169);
+            this.button16.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(109, 58);
+            this.button16.Size = new System.Drawing.Size(82, 47);
             this.button16.TabIndex = 73;
             this.button16.Text = "EUR";
             this.button16.UseVisualStyleBackColor = true;
             // 
             // button15
             // 
-            this.button15.Location = new System.Drawing.Point(1191, 144);
+            this.button15.Location = new System.Drawing.Point(879, 169);
+            this.button15.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(109, 58);
+            this.button15.Size = new System.Drawing.Size(82, 47);
             this.button15.TabIndex = 72;
             this.button15.Text = "DKK";
             this.button15.UseVisualStyleBackColor = true;
             // 
             // button14
             // 
-            this.button14.Location = new System.Drawing.Point(1320, 80);
+            this.button14.Location = new System.Drawing.Point(976, 117);
+            this.button14.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(109, 58);
+            this.button14.Size = new System.Drawing.Size(82, 47);
             this.button14.TabIndex = 71;
             this.button14.Text = "NOK";
             this.button14.UseVisualStyleBackColor = true;
             // 
             // button13
             // 
-            this.button13.Location = new System.Drawing.Point(1191, 80);
+            this.button13.Location = new System.Drawing.Point(879, 117);
+            this.button13.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(109, 58);
+            this.button13.Size = new System.Drawing.Size(82, 47);
             this.button13.TabIndex = 70;
             this.button13.Text = "SEK";
             this.button13.UseVisualStyleBackColor = true;
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(1191, 299);
+            this.textBox1.Location = new System.Drawing.Point(879, 272);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(238, 48);
+            this.textBox1.Size = new System.Drawing.Size(180, 40);
             this.textBox1.TabIndex = 69;
             // 
             // button12
             // 
             this.button12.BackColor = System.Drawing.SystemColors.Control;
-            this.button12.Location = new System.Drawing.Point(1191, 620);
+            this.button12.Location = new System.Drawing.Point(879, 533);
+            this.button12.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(238, 92);
+            this.button12.Size = new System.Drawing.Size(178, 75);
             this.button12.TabIndex = 68;
             this.button12.Text = "ENTER";
             this.button12.UseVisualStyleBackColor = false;
             // 
             // button11
             // 
-            this.button11.Location = new System.Drawing.Point(1191, 554);
+            this.button11.Location = new System.Drawing.Point(879, 479);
+            this.button11.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(75, 60);
+            this.button11.Size = new System.Drawing.Size(56, 49);
             this.button11.TabIndex = 67;
             this.button11.Text = "<--";
             this.button11.UseVisualStyleBackColor = true;
@@ -393,107 +410,118 @@
             // ProductList
             // 
             this.ProductList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.ProductList.Location = new System.Drawing.Point(68, 138);
+            this.ProductList.Location = new System.Drawing.Point(58, 117);
+            this.ProductList.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.ProductList.Name = "ProductList";
             this.ProductList.RowTemplate.Height = 24;
-            this.ProductList.Size = new System.Drawing.Size(441, 390);
+            this.ProductList.Size = new System.Drawing.Size(331, 317);
             this.ProductList.TabIndex = 66;
             // 
             // button10
             // 
-            this.button10.Location = new System.Drawing.Point(1273, 554);
+            this.button10.Location = new System.Drawing.Point(941, 479);
+            this.button10.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(75, 60);
+            this.button10.Size = new System.Drawing.Size(56, 49);
             this.button10.TabIndex = 65;
             this.button10.Text = "0";
             this.button10.UseVisualStyleBackColor = true;
             // 
             // button9
             // 
-            this.button9.Location = new System.Drawing.Point(1354, 488);
+            this.button9.Location = new System.Drawing.Point(1002, 425);
+            this.button9.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(75, 60);
+            this.button9.Size = new System.Drawing.Size(56, 49);
             this.button9.TabIndex = 64;
             this.button9.Text = "9";
             this.button9.UseVisualStyleBackColor = true;
             // 
             // button8
             // 
-            this.button8.Location = new System.Drawing.Point(1273, 488);
+            this.button8.Location = new System.Drawing.Point(941, 425);
+            this.button8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(75, 60);
+            this.button8.Size = new System.Drawing.Size(56, 49);
             this.button8.TabIndex = 63;
             this.button8.Text = "8";
             this.button8.UseVisualStyleBackColor = true;
             // 
             // button7
             // 
-            this.button7.Location = new System.Drawing.Point(1191, 487);
+            this.button7.Location = new System.Drawing.Point(879, 425);
+            this.button7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(75, 61);
+            this.button7.Size = new System.Drawing.Size(56, 50);
             this.button7.TabIndex = 62;
             this.button7.Text = "7";
             this.button7.UseVisualStyleBackColor = true;
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(1354, 420);
+            this.button6.Location = new System.Drawing.Point(1002, 370);
+            this.button6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(75, 61);
+            this.button6.Size = new System.Drawing.Size(56, 50);
             this.button6.TabIndex = 61;
             this.button6.Text = "6";
             this.button6.UseVisualStyleBackColor = true;
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(1273, 420);
+            this.button5.Location = new System.Drawing.Point(941, 370);
+            this.button5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(75, 61);
+            this.button5.Size = new System.Drawing.Size(56, 50);
             this.button5.TabIndex = 60;
             this.button5.Text = "5";
             this.button5.UseVisualStyleBackColor = true;
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(1191, 420);
+            this.button4.Location = new System.Drawing.Point(879, 370);
+            this.button4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 61);
+            this.button4.Size = new System.Drawing.Size(56, 50);
             this.button4.TabIndex = 59;
             this.button4.Text = "4";
             this.button4.UseVisualStyleBackColor = true;
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(1354, 353);
+            this.button3.Location = new System.Drawing.Point(1002, 316);
+            this.button3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 61);
+            this.button3.Size = new System.Drawing.Size(56, 50);
             this.button3.TabIndex = 58;
             this.button3.Text = "3";
             this.button3.UseVisualStyleBackColor = true;
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(1273, 353);
+            this.button2.Location = new System.Drawing.Point(941, 316);
+            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 61);
+            this.button2.Size = new System.Drawing.Size(56, 50);
             this.button2.TabIndex = 57;
             this.button2.Text = "2";
             this.button2.UseVisualStyleBackColor = true;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(1191, 353);
+            this.button1.Location = new System.Drawing.Point(879, 316);
+            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 61);
+            this.button1.Size = new System.Drawing.Size(56, 50);
             this.button1.TabIndex = 56;
             this.button1.Text = "1";
             this.button1.UseVisualStyleBackColor = true;
             // 
             // MainFrame
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1496, 793);
+            this.ClientSize = new System.Drawing.Size(1063, 626);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.dataGridView2);
             this.Controls.Add(this.button22);
@@ -523,6 +551,7 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "MainFrame";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
