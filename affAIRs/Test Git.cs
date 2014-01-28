@@ -21,5 +21,10 @@ namespace affAIRs
         {
 
         }
+
+        private void Test_Git_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

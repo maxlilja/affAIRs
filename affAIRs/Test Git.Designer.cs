@@ -50,6 +50,7 @@
             this.Controls.Add(this.checkBox1);
             this.Name = "Test_Git";
             this.Text = "Test_Git";
+            this.Load += new System.EventHandler(this.Test_Git_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
