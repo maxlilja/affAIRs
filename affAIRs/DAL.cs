@@ -5,12 +5,12 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data.SqlClient;
 using System.Data;
-
+// TJENARE DETTA ÄR TEST
 namespace affAIRs
 {
     class DAL
 
-
+        //Test kl 15.11
 
     {
         SqlConnection con = new SqlConnection("Data Source=MAX-DATOR;Initial Catalog=affAIRs;Integrated Security=True");
