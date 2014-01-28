@@ -23,4 +23,9 @@ C:\Users\Robin\Source\Repos\affAIRs\affAIRs\obj\Debug\affAIRs.csprojResolveAssem
 C:\Users\Robin\Source\Repos\affAIRs\affAIRs\obj\Debug\affAIRs.MainFrame.resources
 C:\Users\Robin\Source\Repos\affAIRs\affAIRs\obj\Debug\affAIRs.Properties.Resources.resources
 C:\Users\Robin\Source\Repos\affAIRs\affAIRs\obj\Debug\affAIRs.csproj.GenerateResource.Cache
+<<<<<<< HEAD
 C:\Users\Robin\Source\Repos\affAIRs\affAIRs\obj\Debug\affAIRs.Test_Git.resources
+=======
+C:\Users\Martin\Source\Repos\affAIRs\affAIRs\bin\Debug\affAIRs.exe.config
+C:\Users\Martin\Source\Repos\affAIRs\affAIRs\obj\Debug\affAIRs.exe
+>>>>>>> b3013e6e812c4c3c26671eabfb1bdfe47f29a752
