@@ -9,6 +9,9 @@ using System.Data;
 namespace affAIRs
 {
     class DAL
+
+        //Test kl 14.50
+
     {
         SqlConnection con = new SqlConnection("Data Source=MAX-DATOR;Initial Catalog=affAIRs;Integrated Security=True");
         
