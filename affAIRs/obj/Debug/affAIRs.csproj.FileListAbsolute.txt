@@ -1,0 +1,12 @@
+C:\Users\Max\Source\Repos\affAIRs\affAIRs\affAIRs\bin\Debug\affAIRs.exe.config
+C:\Users\Max\Source\Repos\affAIRs\affAIRs\affAIRs\bin\Debug\affAIRs.exe
+C:\Users\Max\Source\Repos\affAIRs\affAIRs\affAIRs\bin\Debug\affAIRs.pdb
+C:\Users\Max\Source\Repos\affAIRs\affAIRs\affAIRs\obj\Debug\affAIRs.csprojResolveAssemblyReference.cache
+C:\Users\Max\Source\Repos\affAIRs\affAIRs\affAIRs\obj\Debug\affAIRs.MainFrame.resources
+C:\Users\Max\Source\Repos\affAIRs\affAIRs\affAIRs\obj\Debug\affAIRs.Properties.Resources.resources
+C:\Users\Max\Source\Repos\affAIRs\affAIRs\affAIRs\obj\Debug\affAIRs.csproj.GenerateResource.Cache
+C:\Users\Max\Source\Repos\affAIRs\affAIRs\affAIRs\obj\Debug\affAIRs.exe
+C:\Users\Max\Source\Repos\affAIRs\affAIRs\affAIRs\obj\Debug\affAIRs.pdb
+C:\Users\Max\Source\Repos\affAIRs2\affAIRs\bin\Debug\affAIRs.exe.config
+C:\Users\Max\Source\Repos\affAIRs2\affAIRs\obj\Debug\affAIRs.exe
+C:\Users\Max\Source\Repos\affAIRs2\affAIRs\obj\Debug\affAIRs.pdb
