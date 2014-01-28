@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data.SqlClient;
 using System.Data;
-
+// TJENARE DETTA ÄR TEST
 namespace affAIRs
 {
     class DAL
