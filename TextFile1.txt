@@ -5,3 +5,5 @@ detta är till för att pusha sej lite
 
 
 här kommer en till push
+
+nu har martin pushat, jag committar och pullar...
