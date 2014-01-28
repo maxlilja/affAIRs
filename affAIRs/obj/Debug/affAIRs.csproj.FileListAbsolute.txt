@@ -16,3 +16,6 @@ C:\Users\Max\Source\Repos\affAIRs\obj\Debug\affAIRs.pdb
 C:\Users\Martin\Documents\Visual Studio 2013\Projects\WindowsFormsApplication2\WindowsFormsApplication2\affAIRs\bin\Debug\affAIRs.exe.config
 C:\Users\Martin\Documents\Visual Studio 2013\Projects\WindowsFormsApplication2\WindowsFormsApplication2\affAIRs\obj\Debug\affAIRs.exe
 C:\Users\Martin\Documents\Visual Studio 2013\Projects\WindowsFormsApplication2\WindowsFormsApplication2\affAIRs\obj\Debug\affAIRs.pdb
+C:\Users\Robin\Source\Repos\affAIRs\affAIRs\bin\Debug\affAIRs.exe.config
+C:\Users\Robin\Source\Repos\affAIRs\affAIRs\obj\Debug\affAIRs.exe
+C:\Users\Robin\Source\Repos\affAIRs\affAIRs\obj\Debug\affAIRs.pdb

@@ -11,7 +11,7 @@ namespace affAIRs
     class DAL
 
         //Test kl 15.11
-
+        // Robin Test
     {
         SqlConnection con = new SqlConnection("Data Source=MAX-DATOR;Initial Catalog=affAIRs;Integrated Security=True");
         
